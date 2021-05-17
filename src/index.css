@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{list-style-type:none ;}
+
+h5{
+
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 20px 0px 15px 0px;
+}
+
+p{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color:#606060;
+  
+}
+.header-container{
+  width: 100%;
+  height:100vh;
+  border:1px solid black;
+  background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url("./Images/roman-spiridonov-FemeYrbdMWE-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0% 0%,100% 0%,100% 75%,50% 100%,0% 75%);
+  position:relative;
+  
+}
+.header-container::before{
+  content: "";
+  position: absolute;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  opacity: 0.4;
+  background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+  z-index: -1;
+}
+.navbar::before{
+  content: "";
+  position: absolute;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  opacity: 0.4;
+  background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+  z-index: -1;
+
+}
+
+.navbar-brand{
+  color:white;
+  font-weight: bold;
+}
+.nav-link{
+
+  color:white;
+  font-weight: bold;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header-section{
+  width: 100%;
+  height:inherit;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.header-content-button a{
+  color:white;
+  border:1px solid white;
+  margin:0px 5px;
+  border-radius: 100px;
+  padding:12px 35px;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.header-content-button a:hover{
+  color:#50d1c0;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0,0.3);
+  text-decoration: none;
+}
+
+.header-section-container p{
+  font-size: 1.4rem;
+  color:white;
+  padding:10px 0px 20px 0px;
+  font-weight:100px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+  
+
+}
+.three-extradiv-block{
+  padding: 40px;
+  border-radius: 3px;
+  transition: 0.3s;
+  border-radius: 15px;
+
+}
+
+.three-extradiv-block:hover{
+
+box-shadow: 0px 0px 20px black ;
+transform: translateY(-10%);
+
+}
+
+/* ****************************************what do we provide service section START ***************************************** */
+
+.services{
+  background-color: #f7f7f9;
+  margin-bottom:30px;
+}
+
+.section-heading{
+  padding:30px 0px 0px 40px;
+  margin-top:10px;
+  margin-bottom: 0px;
+  
+}
+.section-heading h3{text-transform: uppercase;}
+
+.various-progress-bar,.side_description-content{
+  padding:30px;
+  margin:10px 0px 10px 0px;
+
+
+}
+.progress{
+  height: 0.8rem;
+}
+.single-progressbar{
+  margin:10px 0px 10px 0px; 
+}
+
+.side_description-content-innerdiv{
+  /* border:2px solid black; */
+  width: 100%;
+  height: 100%;
+}
+
+.service-side-content-icons i{
+color:#2fccd0;
+}
+
+/* ****************************************what do we provide service section END***************************************** */
+
+/* ****************************************what do we Stats section START***************************************** */
+
+.stat-block{
+  /* border:1px solid black; */
+  box-shadow: 0px 0px 10px rgb(85, 84, 84);border-radius: 5px;
+  padding:20px 0px;
+}
+
+
+/* ****************************************what do we Stats section END***************************************** */
+
+
+
+/* ****************************************what do we Pricing section START***************************************** */
+
+.Pricing-section{
+  /* border:2px solid firebrick; */
+  margin-top:100px;
+  width:100%;
+  height: auto;
+  position: relative;
+
+}
+
+.Pricing-section::before{
+  content: "";
+  position:absolute;
+  width:100%;
+  height:100%;
+  /* border:2px solid orange; */
+  background-color: rgba(30, 144, 255,0.7);
+  z-index: -1;
+  clip-path: polygon(0% 0%,100% 0%,100% 20%,0% 90%);
+}
+
+.all_three_card-container{
+  margin-top:40px;
+  padding:0px 40px;
+}
+
+.card .card-body{
+  padding:20px 40px 20px;
+
+
+}
+.card-body span{
+  font-size: 40px
+}
+
+.card-body li{
+  font-size: 20px
+}
+
+.card-footer-button{
+  margin: 10px 0px 25px;
+
+}
+
+.card-footer-button button{
+  border:2px solid #2fd09a;
+  border-radius: 100px;
+  padding:10px 30px;
+text-decoration: none;
+color:#2fd09a;
+
+
+
+}
+
+.card-footer-button button:hover{
+  background-color: #2fd09a;
+  color:white;
+  outline:2px solid white;
+ 
+}
+
+.card{
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+
+
+.card:hover{
+
+  box-shadow: 0px 0px 20px #2fd09a;
+  transform: translateY(-1.5vw);
+  
+}
+
+.card:hover span,.card:hover .card-header{
+  color:#2fd09a;
+}
+
+
+
+/* ****************************************what do we Pricing section END***************************************** */
+/* ****************************************what do we Courouselsection END***************************************** */
+
+.carousel{
+  margin:30px;
+  /* border:2px solid red */
+  
+}
+.carousel-heading{background-color: #f7f7f9;}
+.reviewbox{
+
+  margin:40px 0px;
+  transition: 0.2s;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.reviewbox h1,p,h3,img{
+  margin:15px;
+}
+.reviewbox h3{padding-bottom: 10px;}
+
+.reviewbox:hover {
+transform: translateY(-3vh);
+box-shadow:0px 0px 5px rgba(0, 0, 0,0.7);
+
+}
+
+
+.carousel-next-prev-icons:hover{
+  background-color: grey;
+  clip-path:circle(60px at 50% 50%) ;
+}
+
+.carousel-indicators li{
+  background-color:#2fccd0;
+  position: relative;
+  top:20px;
+  
+}
+
+.carousel-heading{
+  border-bottom: 2px solid black;border-top: 2px solid black;
+}
+/* ****************************************what do we Courouselsection END***************************************** */
+
+
+/* ****************************************what do we Forms-Section START***************************************** */
+
+
+.forms-section{
+  /* border:2px solid black; */
+  position: relative;
+ 
+}
+
+section{margin: 20px 0px; border-radius: 30px;}
+
+.forms-section::before{
+  content: "";
+  width:100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(30, 144, 255,0.7);
+  border-radius: inherit;
+  z-index: -1;
+  clip-path: polygon(95% 0%,100% 0%,100% 100%,0% 100%);
+}
+
+.forms-section button{
+  border-radius: 100px;
+  padding:15px 30px;
+}
+
+
+
+
+/* ****************************************what do we Forms-Section END***************************************** */
+
+
+
+.footersection{
+  width:100%;
+  padding: 70px 0px 20px;
+  border:2px solid grey;
+  background-color: black;
+  color: white;
+  position: absolute;
+}
+
+.footercolumn1content{
+  /* border:2px solid green; */
+  width: 100%;
+}
+
+.sidearrow{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 2;
+  
+  padding:10px 20px;
+  border-radius: 10px;
+  background-color: #606060 !important;
+  
+
+}
+#arrowupbutton{
+  display: none;
+}
+.sidearrow:hover{
+
+  background-color: #363636 !important;
+ 
+}
+
+/* *******************************************SIGNUP********************************************************************** */
+
+.loginsignupPort{
+  width:100%;
+  height: 100vh;
+  background-color: #f7f7f9;
+  position: relative;
+}
+
+.loginsignupPort::before{
+  content: "";
+  width:100%;
+  height:100%;
+  background-color: dodgerblue;
+  position: absolute;
+  
+  clip-path: polygon(90% 0%,100% 0%,100% 100%,0% 100%,0% 80%);
+}
+
+.Loginportdimension{
+  width:100%;
+  height:90vh !important;
+  box-shadow: 0px 0px 10px #606060;
+  border-radius: 10px;
+  z-index: 2;
+  background-color: white;
+}
+
+.signupORloginButton{
+  box-shadow: 0px 0px 1px dodgerblue;
+  border-radius: 10px;
+  padding:1vw;
+  background-color: white;
+  z-index: 2;
+
+}
+.signupORloginButton .heading{
+  box-shadow: 0px 0px 10px dodgerblue;
+  border-radius: 10px;background-color: white;
+  z-index: 2;
+  margin:10px;
+  text-decoration: none;
+}
+.displayarea{
+  width:100%;
+  background-color: white;
+  box-shadow:0px 0px 3px #606060;
+  border-radius: 10px;
+  height:85% !important;
+  z-index: 2;
+
+}
+
